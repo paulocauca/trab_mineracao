@@ -10,6 +10,7 @@ db = connMongo.TweetData
 arg = int(sys.argv[1])
 
 
+
 if arg == 1:
 
   #Autenticações
