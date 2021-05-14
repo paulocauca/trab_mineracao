@@ -14,10 +14,10 @@ arg = int(sys.argv[1])
 if arg == 1:
 
   #Autenticações
-  consumer_key = '1mvb006pw6l8mkedDTeqE8UOw'
-  consumer_secret = 'dOgONpX9mlIgW4lcHnmBgRx4KTxn5ILiK1TH4hWQz1DuqP2hP8'
-  access_token = '237450282-x8x7SWNxcCmB7yRXNi5nFoGHEyRiJBFOddujx0vH'
-  access_token_secret = 'TZdyqlidRQkl3vH4xLAyN35Tf1K9S5IYMhkZ2yWfK75xI'
+  consumer_key = '' #Jamiah you need Yours here ( get in Twitter developer ) 
+  consumer_secret = ''  #Jamiah you need Yours here ( get in Twitter developer ) 
+  access_token = ''  #Jamiah you need Yours here ( get in Twitter developer )  
+  access_token_secret = ''  #Jamiah you need Yours here ( get in Twitter developer )  
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
